@@ -1,0 +1,8 @@
+
+.product-card{
+    background-color: yellow;
+    width: 25rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 95%;
+}
