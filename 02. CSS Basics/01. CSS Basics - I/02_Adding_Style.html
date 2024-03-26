@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding CSS Style in HTML</title>
+
+    <!-- link with CSS file ( External CSS ) -->
+    <link rel="stylesheet" href="02_External_CSS.css">
+
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: blueviolet;
+            background-color: blanchedalmond;
+        }
+
+    /* Specificity */
+    #xyz{
+        color: red;
+    }
+    .abc{
+        color: blue;
+        background-color: aqua;
+    }
+    div{
+        color: black;
+        font-style: italic;
+    }
+    /* color:red;
+    bg-color:aqua;
+    font-styel:itali;
+    will be applied in div... */
+
+
+    
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: red; background-color: aqua;">Hello World!!!</h1>
+
+    <h1>Namaste Duniya!!!</h1>
+
+    <!-- External CSS -->
+    <h2>Namaste Duniya!!!</h2>
+
+
+    <!-- specificity -->
+    <div class="abc" id="xyz">Hello Jee</div>
+</body>
+</html>

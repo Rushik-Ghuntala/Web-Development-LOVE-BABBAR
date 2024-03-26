@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradients</title>
+
+    <style>
+        .linear{
+            margin: auto;
+            border: 1px solid black;
+            width: 500px;
+            height: 300px;
+            background-image: linear-gradient(red, blue);
+            background-image: linear-gradient(to right,red, blue);
+            background-image: linear-gradient(to bottom,red, blue);
+            background-image: linear-gradient(to left,red, blue);
+            background-image: linear-gradient(to top left,red, blue);
+            background-image: linear-gradient(to bottom left,red, blue);
+            background-image: linear-gradient(to bottom right,red, blue);
+            background-image: linear-gradient(90deg,red, blue);
+            background-image: linear-gradient(45deg,red, blue);
+            background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0),rgba(0,0,255,1));
+        }
+
+        .radial{
+            margin: auto;
+            margin-top: 10px;
+            border: 1px solid black;
+            width: 500px;
+            height: 300px;
+            background-image: radial-gradient(red,blue);
+            background-image: radial-gradient(circle,red,blue);
+            background-image: radial-gradient(red 5%, orange 10%,blue 15%);
+        }
+
+        .conical {
+            margin: auto;
+            margin-top: 10px;
+            border: 1px solid black;
+            width: 500px;
+            height: 300px;
+            background-image: conic-gradient(red,blue);
+            background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+            background-image: conic-gradient(red 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg,blue 270deg );
+            background: conic-gradient(      red 6deg, orange 6deg 18deg, yellow 18deg 45deg,green 45deg 110deg, blue 110deg 200deg, purple 200deg);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="linear">This is Linear Gradient Div.</div>
+
+    <div class="radial">This is Radial Gradient Div</div>
+
+    <div class="conical">This is Conical Div.</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+
+    <style>
+
+        .box1{
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            background-color: aquamarine;
+            position: relative;
+            top: 1000px;
+            left: 10px;
+        }
+
+        .box2{
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            background-color: aquamarine;
+            position:fixed;
+            top: 0px;
+        }
+
+        .box3{
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            position:sticky;
+            top: 20px;
+        }
+
+        .h1{
+            position: relative;
+            top: 0;
+            left: 0;
+
+        }
+
+        .h2{
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+        }
+
+        .h3{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .h4 {
+            position: absolute;;
+            bottom: 0;
+            right: 0;
+        }
+
+        .h5{
+            position: absolute;
+            top: 50%;
+            right: 50%;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    
+    <!-- <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div> -->
+
+
+    <h1 class="h1">1</h1>
+    <h1 class="h2">2</h1>
+    <h1 class="h3">3</h1>
+    <h1 class="h4">4</h1>
+    <h1 class="h5">5</h1>
+
+
+</body>
+</html>

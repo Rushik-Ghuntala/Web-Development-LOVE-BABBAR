@@ -1,0 +1,210 @@
+
+
+/* //Advanced Griid */
+
+
+/*
+ .container{
+    height: 700px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    gap: 5px;
+
+}
+
+.box{
+    /* height: 80px;
+    width: 80px; 
+    border: 1px solid black;
+    background-color: aquamarine;
+    
+}
+
+
+#box1{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 5; 
+
+    grid-area: 1/1/5/4;
+} 
+
+*/
+
+
+/* .container{
+    height: 700px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: grid; */
+
+
+    /* grid-template-rows: 30px 150px 400px 30px;
+    grid-template-columns: 400px; */
+
+    /* grid-template-areas: 
+    'hd'
+    'side'
+    'main'
+    'ft'; */
+
+
+    /* grid-template-columns: 400px 200px;
+    grid-template-rows: 30px 500px 30px;
+
+    grid-template-areas: 
+    "hd hd"
+    'side main'
+    'ft ft'; */
+
+
+
+    /* grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+
+    grid-template-areas: 
+    'hd hd hd hd hd hd hd hd'
+    'side main main main main main main main'
+    'ft ft ft ft ft ft ft ft';
+}
+
+.box{
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#header{
+    grid-area: hd;
+}
+
+#slider{
+    grid-area: side;
+}
+
+#content{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: ft;
+} */
+
+
+
+/* .container{
+    height: 700px;
+    border: 1px solid black;
+    background-color: aqua;
+
+    display: grid; 
+    grid-gap: 5px;
+
+    grid-auto-rows: minmax(100px auto);
+    
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box{
+    border: 1px solid black;
+    background-color: yellowgreen;
+} */
+
+
+
+
+
+
+
+
+.container{
+    border: 1px solid black;
+    background-color: aqua;
+
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap: 10px;
+
+
+    /* justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+    
+
+    /* align-content: center;
+    align-content: start;
+    align-content: end;
+    align-content: space-around;
+    align-content: space-evenly;
+    align-content: space-between;
+    align-content: baseline; */
+
+
+    /* align-items: center;
+    align-items: start;
+    align-items: end;
+    align-items: stretch;
+    align-items: baseline; */
+
+
+    /* align-content: center;
+    align-content: start; */
+
+
+    /* justify-content: center;
+    align-content: center; */
+
+
+    /* place-content : center; */
+
+
+
+
+}
+
+.box{
+    
+
+    border: 1px solid black;
+    background-color: yellow;
+
+
+    
+
+}
+
+#box1{
+    /* justify-self: center;
+    align-self: center; */
+    
+
+
+    place-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

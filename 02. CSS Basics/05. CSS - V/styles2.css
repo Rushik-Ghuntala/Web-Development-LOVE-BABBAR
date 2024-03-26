@@ -1,0 +1,41 @@
+
+
+:root{
+    --dark-red: #a900b8;
+}
+
+
+
+
+
+.container{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 700px;
+    height: 600px;
+
+    background-color: var(--dark-red);
+    display: flex;
+
+}
+
+.box{
+    border: 1px solid black;
+    background-color: aquamarine;
+
+    margin: 20px;
+
+    color: var(--dark-red);
+
+    height: 300px;
+    width: 300px;
+
+    /* transition: 1s; */
+
+    transition: all 2s ease;
+}
+
+.box:hover{
+    transform: rotate(45deg);
+    background-color: blue;
+}

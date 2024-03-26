@@ -1,0 +1,83 @@
+
+
+:root{
+    --dark-red: #a900b8;
+}
+
+
+
+
+
+.container{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 700px;
+    height: 600px;
+
+    background-color: var(--dark-red);
+    display: flex;
+
+}
+
+.box{
+
+    border: 1px solid black;
+    background-color: aquamarine;
+
+    margin: 20px;
+
+    color: var(--dark-red);
+
+    height: 300px;
+    width: 300px;
+
+    animation-name: love;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 1s; */
+    animation-direction: normal;
+
+
+}
+
+
+/* @keyframes love {
+    from{
+        width: 300px;
+        background-color: aqua;
+    }
+    to{
+        width: 600px;
+        background-color: black;
+    }
+} */
+
+
+@keyframes love {
+    0%{
+        transform: scale(1);
+        background-color: aqua;
+    }
+
+    30%{
+        transform: scale(3);
+        background-color: red;
+    }
+
+    50%{
+        transform: scale(1);
+        background-color: yellow;
+    }
+
+    75%{
+        transform: scale(3);
+        background-color: red;
+    }
+
+    100%{
+        transform: scale(1);
+        background-color: aqua;
+    }
+
+}

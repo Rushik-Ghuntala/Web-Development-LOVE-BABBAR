@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+
+    <style>
+        h1{
+            text-shadow: 3px 3px 20px red;
+            text-shadow: 3px 3px 20px red,6px 6px 20px green;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            /* border: 1px solid black; */
+            background-color: aqua;
+            /* make border using box sizing  */
+            box-shadow: 1px 1px, -1px -1px;
+            box-shadow: 10px 10px 15px red, -10px -10px 15px green;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <h1>This is my Heading.</h1>
+
+    <div class="box">This is box.</div>
+
+</body>
+</html>
