@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<style>
+
+    table,td {
+        border: 1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="3">Seminar</td>
+            </tr>
+            <tr>
+            
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                
+                <td>Start</td>
+                <td>End</td>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8 AM</td>
+                <td rowspan="2">5 PM</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8 AM</td>
+                <td>11 PM</td>
+                <td rowspan="1.5">XPATH</td>
+            </tr>
+            <tr>
+
+                <td>11 AM</td>
+                <td>2 PM</td>
+                <td rowspan="1.5">XSL Transformation</td>
+            </tr>
+            <tr>
+
+                <td>2 PM</td>
+                <td>5 PM</td>
+                <!-- <td>XSL Transformation</td> -->
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8 AM</td>
+                <td>12 PM</td>
+                <td>XSL Formattong Object</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</body>
+</html>

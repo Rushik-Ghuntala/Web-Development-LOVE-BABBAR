@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Advanced</title>
+
+    <style>
+        table,td,tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+        }
+    </style>
+
+</head>
+<body>
+    <caption>My First Table</caption>
+    <table>
+        <thead>
+            <tr colspan="2">
+                <th>Months</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Jan</th>
+                <td>100</td>
+            </tr>
+            <tr>
+                <th>Fab</th>
+                <td>300</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Mar</th>
+                <td>500</td>
+            </tr>
+            <tr>
+                <!--<th>Apr</th>-->
+                <td>400</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>1300</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <td colspan="4">ABCD</td>
+            <!-- <td>ABCD</td> -->
+            <!-- <td>ABCD</td>
+            <td>ABCD</td> -->
+        </tr>
+        <tr>
+            <td>ABCD</td>
+            <td>ABCD</td>
+            <td>ABCD</td>
+            <td rowspan="3">ABCD</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">ABCD</td>
+            <!-- <td>ABCD</td> -->
+            <td>ABCD</td>
+            <!-- <td>ABCD</td> -->
+        </tr>
+        <tr>
+            <!-- <td>ABCD</td> -->
+            <!-- <td>ABCD</td> -->
+            <td>ABCD</td>
+            <!-- <td>ABCD</td> -->
+        </tr>
+    </table>
+
+
+    <br>
+
+    <table>
+        
+       
+
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting value</td>
+            
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            
+            <td>Minimun</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healty</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+
+</body>
+</html>
